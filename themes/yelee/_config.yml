@@ -7,11 +7,11 @@ Yelee: "3.5"
 ## About Page: `hexo new page about`
 ## Tags Cloud Page: `hexo new page tags`
 menu:
-  主页: /
-  所有文章: /archives/
+  Home: /
+  All Article: /archives/
   #随笔: /tags/随笔
-  标签云: /tags/
- # 关于我: /about/
+  tags: /tags/
+  Resume: /about/
 
 # Link to your avatar | 填写头像地址
 avatar: /img/avatar.png
@@ -137,12 +137,12 @@ highlight_style:
 
 blockquote_style:
   #on: true
-  blockquote: 1  # Value: 0 - 7 可选
+  blockquote: 0  # Value: 0 - 7 可选
   # 自定义文章「引用部分」的样式
 
 # Headings Style | 标题风格
 ## 0-Yelee, 1-Yilia, 2-GitHub
-heading_style: 0 # Value: 0 - 2
+heading_style: 1 # Value: 0 - 2
 
 ## List style type (ul) | 无序列表项标记样式
 list_style: 0  # value: 0 - 12 可选
@@ -184,7 +184,7 @@ friends:
 #friends: false
 
 #是否开启“关于我”。
-aboutme: false
+aboutme: true
 #aboutme: false
 
 # Open link in a new tab | 是否在新窗口打开链接
